@@ -3,10 +3,10 @@
 def prime?(int)
   if int > 0
     num = int - 1
-    range = (2..int).to_a
+    range = (2..num).to_a
   elsif int < 0
     num = int + 1
-    range = (int..-2).to_a
+    range = (num..-2).to_a
   else
     return false
   end
@@ -17,4 +17,3 @@ def prime?(int)
   end
   return true
 end
-
