@@ -19,3 +19,5 @@ def prime?(int)
   end
   return true
 end
+
+prime(3)
