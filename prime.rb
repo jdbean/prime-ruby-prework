@@ -1,4 +1,4 @@
-def prime(int)
+def prime?(int)
   if int > 0
     int -= 1
     range = (2..int).to_a
