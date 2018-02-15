@@ -10,7 +10,7 @@ def prime?(int)
   end
 
   range.each do |i|
-    if int % i = 0
+    if int % i == 0
       return false
     end
   end
