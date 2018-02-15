@@ -1,10 +1,11 @@
 # require 'pry'
+require 'benchmark'
 
 def prime?(int)
   if int > 1
     num = int - 1
     range = (2..num).to_a
-  else 
+  else
     return false
   end
   range.each do |i|
