@@ -1,8 +1,10 @@
-require binding.pry
+require 'pry'
+
 def prime?(int)
   if int > 0
     int -= 1
     range = (2..int).to_a
+    binding.pry
   elsif int < 0
     int += 1
     range = (int..-2).to_a
