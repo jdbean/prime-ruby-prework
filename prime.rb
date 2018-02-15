@@ -16,4 +16,4 @@ def prime?(int)
   return true
 end
 
-puts Benchmark.measure{prime?(190345834908345908100)}
+puts Benchmark.measure{prime?(28100)}
