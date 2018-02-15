@@ -1,11 +1,18 @@
 def prime(int)
   if int > 0
-    range = (1..int).to_a
+    int -= 1
+    range = (2..int).to_a
   elsif int < 0
-    range = (int..-1).to_a
+    int += 1
+    range = (int..-2).to_a
   else
     return false
   end
 
-  for num in range
+  range.each do |i|
+    if int % i = 0
+      return false
+    end
+  end
+  return true
 end
