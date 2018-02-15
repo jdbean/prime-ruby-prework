@@ -20,4 +20,4 @@ def prime?(int)
   return true
 end
 
-prime(3)
+prime?(3)
