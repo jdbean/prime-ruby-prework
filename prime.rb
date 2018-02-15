@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 def prime?(int)
   if int > 0
@@ -10,7 +10,6 @@ def prime?(int)
   else
     return false
   end
-  binding.pry
   range.each do |i|
     if int % i == 0
       return false
@@ -19,4 +18,3 @@ def prime?(int)
   return true
 end
 
-prime?(3)
